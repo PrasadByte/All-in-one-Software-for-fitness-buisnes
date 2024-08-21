@@ -1,0 +1,118 @@
+/* footer.css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+  }
+  
+  footer a.text-white {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a.text-white:hover {
+    color: #fff;
+  }
+  
+  footer a.text-color-3 {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  footer a.text-color-3:hover {
+    color: #cb52b3;
+  }
+  
+  footer .text-color-4 {
+    color: #FF5722;
+  }
+  
+  footer .btn-outline-light {
+    color: #bc5c5c;
+    border-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  footer .btn-outline-light:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  footer hr {
+    border-color: #444444;
+  }
+  
+  footer .container-fluid {
+    padding: 0 0%   ;
+  }
+  
+  footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  footer .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+  footer .text-center {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  footer .text-center a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  footer .text-center a:hover {
+    color: #66bb6a;
+  }
+  
+  @media (max-width: 767.98px) {
+    footer .row {
+      text-align: center;
+    }
+  
+    footer .text-center {
+      padding-top: 30px;
+    }
+  
+    footer .text-center p {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .container {
+    max-width: 1200px;
+     margin: 40px auto; 
+     padding: 20px;
+    background-color: rgb(95, 92, 92)  ; 
+      border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.address{
+  justify-content: center;  
+}

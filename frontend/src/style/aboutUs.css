@@ -1,0 +1,85 @@
+/* aboutUs.css */
+
+.container.about-us {
+    padding: 50px 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .container.about-us .row {
+    margin-bottom: 30px;
+  }
+  
+  .container.about-us h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+
+
+  
+  .container.about-us p.lead {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .container.about-us video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container.about-us .col-md-6 p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .container.about-us a.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container.about-us a.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .container.about-us .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .container.about-us .text-center {
+    text-align: center;
+  }
+  
+  @media (max-width: 767.98px) {
+    .container.about-us {
+      padding: 30px 15px;
+    }
+  
+    .container.about-us h2 {
+      font-size: 28px;
+    }
+  
+    .container.about-us p.lead {
+      font-size: 16px;
+    }
+  
+    .container.about-us .col-md-6 p {
+      font-size: 14px;
+    }
+  }
+
+
+ 
+  

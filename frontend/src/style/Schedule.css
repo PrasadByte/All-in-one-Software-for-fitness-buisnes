@@ -1,0 +1,16 @@
+/* Schedule.module.css */
+.schedule {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .days {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+  
